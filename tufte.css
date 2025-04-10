@@ -204,6 +204,11 @@ li:not(:first-child) {
     margin-top: 0.25rem;
 }
 
+object {
+    width: 55%;
+    height: 800 px;
+}
+
 figure {
     padding: 0;
     border: 0;
@@ -452,6 +457,10 @@ label.margin-toggle:not(.sidenote-number) {
 
     img {
         width: 100%;
+    }
+    object {
+        width: 100%;
+        margin: 0 auto;
     }
 }
  /* My stuffs */
